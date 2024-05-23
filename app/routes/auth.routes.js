@@ -10,4 +10,5 @@ module.exports = (app) => {
   router.post("/logout", auth.logout);
 
   app.use("/recipeapi", router);
+
 };
