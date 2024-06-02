@@ -22,5 +22,4 @@ module.exports = (app) => {
   router.delete("/ingredients/", [authenticateRoute], Ingredient.deleteAll);
 
   app.use("/recipeapi", router);
-
 };
